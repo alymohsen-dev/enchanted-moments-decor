@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingButtons from "@/components/FloatingButtons";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import Services from "./pages/Services";
@@ -22,6 +23,7 @@ const App = () => (
       <BrowserRouter>
         <div className="flex flex-col min-h-screen">
           <Navbar />
+          <FloatingButtons />
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
