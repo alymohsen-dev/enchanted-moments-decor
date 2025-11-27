@@ -2,18 +2,21 @@ import { Card } from "@/components/ui/card";
 import backdropImage from "@/assets/gallery-backdrop.jpg";
 import tableImage from "@/assets/gallery-table.jpg";
 import lightingImage from "@/assets/gallery-lighting.jpg";
+import pickone from "@/assets/zz.jpeg";
+import pickone2 from "@/assets/bb.jpeg";
+import pickone3 from "@/assets/ss.jpeg";
 
 const Gallery = () => {
   const galleryItems = [
     {
       src: backdropImage,
-      title: "خلفيات فخمة",
-      description: "تصاميم خلفيات مميزة بألوان رومانسية وأقمشة فاخرة",
+      title: " أعياد ميلاد ",
+      description: "تصاميم خلفيات مميزة بأسمك وبأسم حبيبك",
     },
     {
       src: tableImage,
-      title: "تنسيق الطاولات",
-      description: "تنسيقات طاولات أنيقة مع الورود والإضاءة",
+      title: "  ديكور هادى وراقى ",
+      description: " we found love ",
     },
     {
       src: lightingImage,
@@ -21,17 +24,17 @@ const Gallery = () => {
       description: "إضاءة احترافية تخلق أجواء ساحرة",
     },
     {
-      src: backdropImage,
+      src: pickone3,
       title: "ورود طبيعية",
       description: "باقات وتنسيقات ورد طبيعي فاخر",
     },
     {
-      src: tableImage,
+      src: pickone,
       title: "تصاميم كاملة",
       description: "ثيمات متكاملة للحفل بالكامل",
     },
     {
-      src: lightingImage,
+      src: pickone2,
       title: "ديكورات المسرح",
       description: "تصاميم مسرح مميزة للعروسين",
     },

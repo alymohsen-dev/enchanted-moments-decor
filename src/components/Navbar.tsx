@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 space-x-reverse">
             <span className="text-2xl font-heading font-bold text-gradient-gold">
-              ديكورات خطوبة
+             الكوشه  ELKOSHA 
             </span>
           </Link>
 

@@ -10,7 +10,7 @@ import lightingImage from "@/assets/gallery-lighting.jpg";
 const Home = () => {
   const galleryImages = [
     { src: backdropImage, alt: "خلفيات فخمة" },
-    { src: tableImage, alt: "تنسيق طاولات" },
+    { src: tableImage, alt: " كلمات من اختيارك" },
     { src: lightingImage, alt: "إضاءة رومانسية" },
   ];
 

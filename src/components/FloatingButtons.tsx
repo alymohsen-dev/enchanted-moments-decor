@@ -2,8 +2,8 @@ import { Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const FloatingButtons = () => {
-  const phoneNumber = "+966123456789"; // غيّري الرقم هنا
-  const whatsappNumber = "+966123456789"; // غيّري الرقم هنا
+  const phoneNumber = "+201145307550"; // غيّري الرقم هنا
+  const whatsappNumber = "+201145307550"; // غيّري الرقم هنا
 
   return (
     <div className="fixed bottom-6 left-6 z-50 flex flex-col gap-3 animate-fade-in">

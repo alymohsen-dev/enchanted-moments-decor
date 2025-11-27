@@ -26,7 +26,7 @@ const Contact = () => {
 
     // Create WhatsApp message
     const message = `مرحباً، أنا ${formData.name}%0aرقم الهاتف: ${formData.phone}%0aتاريخ الحفل: ${formData.date || "لم يحدد"}%0aالرسالة: ${formData.message || "لا توجد"}`;
-    const whatsappUrl = `https://wa.me/+966500000000?text=${message}`;
+    const whatsappUrl = `https://wa.me/+201145307550?text=${message}`;
     
     window.open(whatsappUrl, "_blank");
     toast.success("سيتم توجيهك إلى واتساب");
@@ -64,7 +64,7 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <a
-                  href="https://wa.me/+966500000000"
+                  href="https://wa.me/+201145307550"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg bg-muted hover:bg-primary/10 transition-all group"
@@ -75,13 +75,13 @@ const Contact = () => {
                   <div>
                     <div className="font-heading font-bold text-lg">واتساب</div>
                     <div className="font-body text-muted-foreground">
-                      +966 50 000 0000
+                      +201145307550
                     </div>
                   </div>
                 </a>
 
                 <a
-                  href="tel:+966500000000"
+                  href="tel:+201145307550"
                   className="flex items-center gap-4 p-4 rounded-lg bg-muted hover:bg-primary/10 transition-all group"
                 >
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -90,7 +90,7 @@ const Contact = () => {
                   <div>
                     <div className="font-heading font-bold text-lg">هاتف</div>
                     <div className="font-body text-muted-foreground">
-                      +966 50 000 0000
+                      +201145307550
                     </div>
                   </div>
                 </a>
@@ -101,22 +101,26 @@ const Contact = () => {
                   </h3>
                   <div className="flex gap-4">
                     <a
-                      href="#"
-                      className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 text-white flex items-center justify-center hover:scale-110 transition-transform"
-                    >
-                      <Instagram size={24} />
-                    </a>
-                    <a
-                      href="#"
-                      className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center hover:scale-110 transition-transform"
-                    >
-                      <Facebook size={24} />
-                    </a>
+      href="https://www.instagram.com/elkosha_weding_plner?utm_source=qr&igsh=MWhrYmFuNWNueDBuaQ=="
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+    >
+      <Instagram size={20} />
+    </a>
+    <a
+      href="https://www.facebook.com/share/1EqQtkvTxs/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+    >
+      <Facebook size={20} />
+    </a>
                   </div>
                 </div>
               </div>
             </Card>
-
+{/* 
             <Card className="p-8 bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
               <h3 className="text-2xl font-heading font-bold mb-4">
                 ساعات العمل
@@ -131,7 +135,7 @@ const Contact = () => {
                   <span className="text-muted-foreground">مغلق</span>
                 </div>
               </div>
-            </Card>
+            </Card> */}
           </div>
 
           {/* Contact Form */}
@@ -204,7 +208,7 @@ const Contact = () => {
                 className="w-full bg-gradient-to-r from-primary to-yellow-500 hover:opacity-90 text-lg py-6"
               >
                 <Send className="ml-2" size={20} />
-                إرسال عبر واتساب
+                إرسال 
               </Button>
             </form>
           </Card>
