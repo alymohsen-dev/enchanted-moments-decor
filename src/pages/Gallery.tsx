@@ -5,6 +5,16 @@ import lightingImage from "@/assets/gallery-lighting.jpg";
 import pickone from "@/assets/zz.jpeg";
 import pickone2 from "@/assets/bb.jpeg";
 import pickone3 from "@/assets/ss.jpeg";
+import img1 from "@/assets/img1.jpg";
+import img2 from "@/assets/img2.jpg";
+import img3 from "@/assets/img3.jpg";
+import img4 from "@/assets/img4.jpg";
+import img5 from "@/assets/img5.jpg";
+import img6 from "@/assets/img6.jpg";
+import img7 from "@/assets/img7.jpg";
+import img8 from "@/assets/img8.jpg";
+import img9 from "@/assets/img9.jpg";
+import img10 from "@/assets/img10.jpg";
 
 const Gallery = () => {
   const galleryItems = [
@@ -38,6 +48,57 @@ const Gallery = () => {
       title: "ديكورات المسرح",
       description: "تصاميم مسرح مميزة للعروسين",
     },
+    {
+  src: img1,
+  title: "ديكور مفاجأة رومانسية",
+  description: "تنسيق خاص للحظات المميزة",
+},
+{
+  src: img2,
+  title: "عيد ميلاد طفولي",
+  description: "تصميم ملون ومبهج للأطفال",
+},
+{
+  src: img3,
+  title: "عيد ميلاد شبابي",
+  description: "ديكور عصري للأصدقاء والشباب",
+},
+{
+  src: img4,
+  title: "عيد ميلاد فخم",
+  description: "تصميم راقي ومميز للكبار",
+},
+{
+  src: img5,
+  title: "عيد ميلاد مفاجئ",
+  description: "تنسيق حفلة مليئة بالمفاجآت",
+},
+{
+  src: img6,
+  title: "عيد ميلاد حلو وبسيط",
+  description: "ديكور أنيق وبسيط يضفي جمالاً",
+},
+{
+  src: img7,
+  title: "ديكور حفلات خاص",
+  description: "تصميم حسب الطلب",
+},
+{
+  src: img8,
+  title: "منصة تصوير راقية",
+  description: "زوايا تصوير فنية",
+},
+{
+  src: img9,
+  title: "ثيم رومانسي كامل",
+  description: "ديكور متكامل للمناسبة",
+},
+{
+  src: img10,
+  title: "ديكور خطوبة فاخر",
+  description: "لمسة فخامة لليلة العمر",
+},
+
   ];
 
   return (
